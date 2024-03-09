@@ -1,0 +1,41 @@
+.statistics {
+  background-color: white;
+  margin-top: 40px;
+  padding: 0;
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.title {
+  margin-top: 24px;
+  font-size: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  font-weight: 600;
+}
+
+.stat-list {
+  display: flex;
+}
+
+.item {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  width: 72px;
+  color: white;
+  gap: 4px;
+}
+
+.label {
+  font-size: 18px;
+}
+.percentage {
+  font-size: 22px;
+}

@@ -1,0 +1,36 @@
+.item {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  background-color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  width: 300px;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.status {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+
+.online {
+  background-color: green;
+}
+
+.offline {
+  background-color: red;
+}
+
+.avatar {
+  width: 56px;
+  border-radius: 8px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 500;
+}
